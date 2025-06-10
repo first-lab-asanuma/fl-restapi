@@ -7,6 +7,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
@@ -20,7 +22,8 @@ public class IndexController {
 
     @GetMapping("/")
     public String index() {
-        return "Hello World";
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd_HH:mm:ss_SSS");
+        return "Hello World now: " + LocalDateTime.now().format(formatter);
     }
 
     @SneakyThrows
