@@ -1,0 +1,1 @@
+java -jar -Xms512M -Xmx3800M /opt/hh/artifact.jar

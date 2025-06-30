@@ -1,9 +1,8 @@
 aws:
   region: ap-northeast-1
-  credentials:
-    access-key:
-    secret-key:
   s3:
     bucket-name: fl-s3-bucket-fl
   lambda:
     function-name: FL-Lambda
+server:
+  port: 80
