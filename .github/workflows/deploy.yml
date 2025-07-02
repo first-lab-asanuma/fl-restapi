@@ -3,7 +3,7 @@ name: Deploy to Amazon ECS
 on:
   push:
     branches:
-      - main
+      - feature/cli
   pull_request:
     branches:
       - main
@@ -11,11 +11,11 @@ on:
 env:
   AWS_REGION: ap-northeast-1
   ECR_REGISTRY: 417010949107.dkr.ecr.ap-northeast-1.amazonaws.com
-  ECR_REPOSITORY: fl-ecr
-  ECS_SERVICE: fl-ecs-service
-  ECS_CLUSTER: fl-ecs-cluster
-  ECS_TASK_DEFINITION: fl-ecs-task-definition
-  CONTAINER_NAME: fl-container
+  ECR_REPOSITORY: fl-sg-ecr
+  ECS_SERVICE: fl-sg-ecs-service
+  ECS_CLUSTER: fl-sg-ecs-cluster
+  ECS_TASK_DEFINITION: fl-sg-ecs-task-definition
+  CONTAINER_NAME: fl-sg-container
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
