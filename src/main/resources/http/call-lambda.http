@@ -1,9 +1,9 @@
 
-POST http://localhost:8080/api/call-lambda
+POST http://localhost/api/call-lambda
 Content-Type: application/json
 
 {
-    "orderId": "1234",
+    "orderId": "8888",
     "amount": 100.0,
     "item": "test"
 }

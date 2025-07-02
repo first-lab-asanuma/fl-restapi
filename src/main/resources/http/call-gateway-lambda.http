@@ -1,0 +1,9 @@
+
+POST http://localhost/api/call-gateway-lambda
+Content-Type: application/json
+
+{
+    "orderId": "9999",
+    "amount": 100.0,
+    "item": "testGateWay"
+}

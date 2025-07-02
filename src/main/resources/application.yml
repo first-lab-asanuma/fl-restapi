@@ -4,5 +4,7 @@ aws:
     bucket-name: fl-s3-bucket-fl
   lambda:
     function-name: FL-Lambda
+  gateway:
+    endpoint-url: https://6xshvp9djj.execute-api.ap-northeast-1.amazonaws.com/FL-Lambda-API/FL-Lambda
 server:
   port: 80

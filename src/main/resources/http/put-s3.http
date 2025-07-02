@@ -1,2 +1,2 @@
 
-POST http://localhost:8080/api/put-s3
+POST http://localhost/api/put-s3
