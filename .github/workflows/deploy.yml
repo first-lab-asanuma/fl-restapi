@@ -12,7 +12,7 @@ env:
   AWS_REGION: ap-northeast-1
   ECR_REGISTRY: 417010949107.dkr.ecr.ap-northeast-1.amazonaws.com
   ECR_REPOSITORY: fl-sg-ecr
-  ECS_SERVICE: fl-sg-ecs-service
+  ECS_SERVICE: fl-sg-ecs-task-definition-service-fzhetzno
   ECS_CLUSTER: fl-sg-ecs-cluster
   ECS_TASK_DEFINITION: fl-sg-ecs-task-definition
   CONTAINER_NAME: fl-sg-ecs-task-container
