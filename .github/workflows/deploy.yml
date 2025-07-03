@@ -15,7 +15,7 @@ env:
   ECS_SERVICE: fl-sg-ecs-service
   ECS_CLUSTER: fl-sg-ecs-cluster
   ECS_TASK_DEFINITION: fl-sg-ecs-task-definition
-  CONTAINER_NAME: fl-sg-container
+  CONTAINER_NAME: fl-sg-ecs-task-container
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
