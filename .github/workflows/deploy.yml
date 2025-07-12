@@ -1,9 +1,6 @@
 name: Deploy to Amazon ECS
 
 on:
-  push:
-    branches:
-      - feature/nguyen
   pull_request:
     branches:
       - feature/nguyen
