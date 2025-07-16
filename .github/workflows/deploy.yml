@@ -3,19 +3,16 @@ name: Deploy to Amazon ECS
 on:
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
+      - feature/asanuma
 
 env:
   AWS_REGION: ap-northeast-1
   ECR_REGISTRY: 417010949107.dkr.ecr.ap-northeast-1.amazonaws.com
-  ECR_REPOSITORY: fl-ecr
-  ECS_SERVICE: fl-ecs-service
-  ECS_CLUSTER: fl-ecs-cluster
-  ECS_TASK_DEFINITION: fl-ecs-task-definition
-  CONTAINER_NAME: fl-container
+  ECR_REPOSITORY: fl-asanuma-ecr
+  ECS_SERVICE: fl-asanuma-ecs-service
+  ECS_CLUSTER: fl-asanuma-ecs-cluster
+  ECS_TASK_DEFINITION: fl-asanuma-ecs-task-definition
+  CONTAINER_NAME: fl-asanuma-container
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
