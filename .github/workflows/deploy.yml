@@ -14,8 +14,8 @@ env:
   ECR_REPOSITORY: fl-jeong-bj-ecr
   ECS_SERVICE: fl-ecs-service
   ECS_CLUSTER: fl-jeong-bj-ecs-cluster
-  ECS_TASK_DEFINITION: fl-ecs-task-definition
-  CONTAINER_NAME: fl-container
+  ECS_TASK_DEFINITION: fl-jeong-bj-ecs-task-definition-2
+  CONTAINER_NAME: fl-jeong-bj-container
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
