@@ -12,10 +12,10 @@ env:
   AWS_REGION: ap-northeast-1
   ECR_REGISTRY: 417010949107.dkr.ecr.ap-northeast-1.amazonaws.com
   ECR_REPOSITORY: fl-hyeonjun-ecr
-  ECS_SERVICE: fl-ecs-service
+  ECS_SERVICE: fl-hyeonjun-ecs-service
   ECS_CLUSTER: fl-kimhyeonjun-ecs-cluster
   ECS_TASK_DEFINITION: fl-ecs-task-definition
-  CONTAINER_NAME: fl-container
+  CONTAINER_NAME: fl-hyeonjun-container
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
