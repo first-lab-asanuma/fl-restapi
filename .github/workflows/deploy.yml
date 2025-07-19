@@ -3,7 +3,7 @@ name: Deploy to Amazon ECS
 on:
   push:
     branches:
-      - feature/hwjung
+      - feature/hwjung-a
 
 env:
   AWS_REGION: ap-northeast-1
