@@ -34,7 +34,7 @@ class S3ServiceTest {
     @Test
     void listFiles_shouldReturnListOfS3Keys() {
         List<S3Object> mockS3Objects = List.of(
-                S3Object.builder().key("file3.txt").build(),
+                S3Object.builder().key("file1.txt").build(),
                 S3Object.builder().key("file2.txt").build()
         );
 
