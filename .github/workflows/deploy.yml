@@ -3,10 +3,10 @@ name: Deploy to Amazon ECS
 on:
   push:
     branches:
-      - feature/asanuma-2abcd
+      - feature/asanuma
   pull_request:
     branches:
-      - feature/asanuma-2abcd
+      - feature/asanuma
 
 env:
   AWS_REGION: ap-northeast-1
