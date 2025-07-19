@@ -12,7 +12,7 @@ env:
   AWS_REGION: ap-northeast-1
   ECR_REGISTRY: 417010949107.dkr.ecr.ap-northeast-1.amazonaws.com
   ECR_REPOSITORY: fl-asanuma-2-ecr
-  ECS_SERVICE: fl-ecs-service
+  ECS_SERVICE: fl-asanuma-2-ecs-service
   ECS_CLUSTER: fl-asanuma-2-ecs-cluster
   ECS_TASK_DEFINITION: fl-asanuma-2-ecs-task-definition
   CONTAINER_NAME: fl-asanuma-2-container
