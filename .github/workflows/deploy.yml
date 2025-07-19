@@ -6,7 +6,7 @@ on:
       - feature/jeong-bj
   pull_request:
     branches:
-      - main
+      - feature/jeong-bj
 
 env:
   AWS_REGION: ap-northeast-1
