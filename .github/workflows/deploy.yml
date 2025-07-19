@@ -14,7 +14,7 @@ env:
   ECR_REPOSITORY: fl-ecr
   ECS_SERVICE: fl-ecs-service
   ECS_CLUSTER: fl-ecs-cluster
-  ECS_TASK_DEFINITION: fl-ecs-task-definition
+  ECS_TASK_DEFINITION: fl-hyeonjun-ecs-task-definition:1
   CONTAINER_NAME: fl-container
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
