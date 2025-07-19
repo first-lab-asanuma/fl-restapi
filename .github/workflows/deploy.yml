@@ -11,8 +11,8 @@ env:
   ECR_REPOSITORY: fl-jung-ecr
   ECS_SERVICE: fl-ecs-service
   ECS_CLUSTER: fl-jung-ecs-cluster
-  ECS_TASK_DEFINITION: fl-ecs-task-definition
-  CONTAINER_NAME: fl-container
+  ECS_TASK_DEFINITION: fl-jung-2-ecs-task-definition
+  CONTAINER_NAME: fl-jung-2-container
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
