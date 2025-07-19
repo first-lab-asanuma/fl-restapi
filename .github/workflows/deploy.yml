@@ -14,8 +14,8 @@ env:
   ECR_REPOSITORY: fl-asanuma-2-ecr
   ECS_SERVICE: fl-ecs-service
   ECS_CLUSTER: fl-asanuma-2-ecs-cluster
-  ECS_TASK_DEFINITION: fl-ecs-task-definition
-  CONTAINER_NAME: fl-container
+  ECS_TASK_DEFINITION: fl-asanuma-2-ecs-task-definition
+  CONTAINER_NAME: fl-asanuma-2-container
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
