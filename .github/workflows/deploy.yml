@@ -15,7 +15,7 @@ env:
   ECS_SERVICE: fl-ksj-ecs-service
   ECS_CLUSTER: fl-ecs-ksj-cluster
   ECS_TASK_DEFINITION: fl-ksj-ecs-task-definition
-  CONTAINER_NAME: fl-ksj-container
+  CONTAINER_NAME: fl-ksj-containner
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
