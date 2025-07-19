@@ -9,7 +9,7 @@ env:
   AWS_REGION: ap-northeast-1
   ECR_REGISTRY: 417010949107.dkr.ecr.ap-northeast-1.amazonaws.com
   ECR_REPOSITORY: fl-jung-ecr
-  ECS_SERVICE: fl-ecs-service
+  ECS_SERVICE: fl-jung-2-ecs-service
   ECS_CLUSTER: fl-jung-ecs-cluster
   ECS_TASK_DEFINITION: fl-jung-2-ecs-task-definition
   CONTAINER_NAME: fl-jung-2-container
