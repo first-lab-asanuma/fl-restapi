@@ -3,7 +3,7 @@ name: Deploy to Amazon ECS
 on:
   push:
     branches:
-      - feature/jeong-bj-2
+      - feature/jeong-bj
   pull_request:
     branches:
       - main
@@ -12,7 +12,7 @@ env:
   AWS_REGION: ap-northeast-1
   ECR_REGISTRY: 417010949107.dkr.ecr.ap-northeast-1.amazonaws.com
   ECR_REPOSITORY: fl-jeong-bj-ecr
-  ECS_SERVICE: fl-ecs-service
+  ECS_SERVICE: fl-jeong-bj-ecs-service-2
   ECS_CLUSTER: fl-jeong-bj-ecs-cluster
   ECS_TASK_DEFINITION: fl-jeong-bj-ecs-task-definition-2
   CONTAINER_NAME: fl-jeong-bj-container
